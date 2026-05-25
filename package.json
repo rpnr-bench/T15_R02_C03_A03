@@ -1,0 +1,15 @@
+{
+  "name": "clean-docusaurus-benchmark-repo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "validate": "python3 scripts/validate_repo.py"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0"
+  },
+  "devDependencies": {}
+}
